@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alerta{
+    color: #EEE9DA;
+}
+.titulo-sweet{
+    color: #EEE9DA;
+    font-size: 1.4rem;
+}
+@media (max-width: 1200px){
+    body {
+        margin: 10px;
+        background-color: #EEE9DA;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .cuerpo-titulo{
+        background-color: #4F709C;
+        padding-top: 20px;
+    }
+    .Titulo{
+        color: #F5EFE7;
+        text-align: center;
+    }
+    .Subtitulo{
+        color: #F5EFE7;
+        background-color: #6096B4;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .carousel{
+        padding-top: 5px;
+        border-color: #3D84B8;
+        border-style: solid;
+        padding-bottom: 10;
+        border-top-color: #EEE9DA;
+        border-left-color: #EEE9DA;
+        border-right-color: #EEE9DA;
+    }
+    .descripcion-foro{
+        background-color:#4F709C;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .descripcion-titulo{
+        text-align: center;
+        color: #F5EFE7;
+    }
+    .container-fluid{
+        background-color: #6096B4;
+        padding: 10px;
+        
+    }
+    .navbar-toggler{
+        background-color: #EEE9DA;
+    }
+    .navbar-brand{
+        color: #F5EFE7;
+    }
+    .nav-link{
+        color: #F5EFE7;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 30px;
+        padding-top: 20px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 60px;
+        font-size: 1.3rem;
+    }
+    
+}
+@media (min-width: 375px) {
+    body {
+        margin: 10px;
+        background-color: #EEE9DA;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .cuerpo-titulo{
+        background-color: #4F709C;
+        padding-top: 20px;
+    }
+    .Titulo{
+        color: #F5EFE7;
+        text-align: center;
+    }
+    .Subtitulo{
+        color: #F5EFE7;
+        background-color: #6096B4;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .carousel{
+        padding-top: 5px;
+        border-color: #3D84B8;
+        border-style: solid;
+        padding-bottom: 10;
+        border-top-color: #EEE9DA;
+        border-left-color: #EEE9DA;
+        border-right-color: #EEE9DA;
+    }
+    .descripcion-foro{
+        background-color:#4F709C;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .descripcion-titulo{
+        text-align: center;
+        color: #F5EFE7;
+    }
+    .container-fluid{
+        background-color: #6096B4;
+        padding: 10px;
+        
+    }
+    .navbar-toggler{
+        background-color: #EEE9DA;
+    }
+    .navbar-brand{
+        color: #F5EFE7;
+    }
+    .nav-link{
+        color: #F5EFE7;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 30px;
+        padding-top: 20px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 60px;
+        font-size: 1.3rem;
+    }
+        
+}
